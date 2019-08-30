@@ -15,5 +15,5 @@ class ProductsReport:
               ProductsAnalysis.brand_wise_max_prices(brands_price))
         print('Brand Wise Min Price:',
               ProductsAnalysis.brand_wise_min_prices(brands_price))
-        print('Max Discounted Product Ratio:', max(ProductsAnalysis.max_discounted_products_ratio_dict().values()))
-        print('Brand Wise Max Discounted Product Ratio:', ProductsAnalysis.max_discounted_products_ratio_dict())
+        print('Max Discounted Product Ratio:', max(ProductsAnalysis.max_discounted_ratio().values()))
+        print('Brand Wise Max Discounted Product Ratio:', ProductsAnalysis.max_discounted_ratio())
